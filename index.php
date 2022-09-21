@@ -21,7 +21,6 @@ if (isset($_GET['code'])) {
     <script>
         document.addEventListener('keydown', function(event) {
             location.replace("index.php?code=" + event.key);
-
         });
     </script>
 </body>
